@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.header {
+    font-family: 'Pacifico', cursive;
+    padding: 16pt;
+    font-size: 24pt;
+    background: #eee;
+    margin-bottom: 16px;
+}
+
+.header a,
+.header a:hover,
+.header a:visited {
+    color: #333;
+}
