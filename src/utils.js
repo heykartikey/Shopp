@@ -1,4 +1,4 @@
-const API = 'http://fakestoreapi.com/products'
+const API = 'https://fakestoreapi.com/products'
 
 export const getProducts = async () => {
     const response = await fetch(API)
