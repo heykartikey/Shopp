@@ -30,6 +30,8 @@ export default function ProductDetail() {
 
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [pid])
+    
+    if (+pid !== product.id) product = {}
 
     return <div id='main'><DetailCard {...product} /></div>
 }
